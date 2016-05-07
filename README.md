@@ -3,6 +3,12 @@ sample app for java
 
 ## Pre Condition
 
+1. install Java, Maven, Tomcat
+2. get app
+3. docker pull redis
+
+## procedure
+
 App
 
 1. mvn package
@@ -19,3 +25,4 @@ Run
 Access
 
 1. http://localhost:8080/
+
