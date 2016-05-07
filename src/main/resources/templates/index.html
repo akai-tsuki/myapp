@@ -7,7 +7,9 @@
 <body>
 	<span th:text="${message}">Hello world</span>
 	<form action="/" method="POST">
-		<input name="name" type="text" /><br /> <input type="submit" />
+		<span>name : </span><input name="name" type="text" /><br />
+		<input type="submit" />
 	</form>
+	<span>前の文字列：</span><span th:text="${before}">null</span>
 </body>
 </html>
