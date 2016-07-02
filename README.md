@@ -3,16 +3,19 @@ sample app for java
 
 ## Pre Condition
 
-1. install Java, Maven, Tomcat
-2. get app
-3. docker pull redis
+1. Install Java, Maven, Tomcat
+2. Get app
+    git clone https://github.com/akai-tsuki/myapp.git
+    cd myapp
+    mvn package
+3. Get redis image
+    docker pull redis
 
 ## procedure
 
 App
 
-1. mvn package
-2. deploy ROOT.war to Tomcat
+1. Deploy ROOT.war to Tomcat
 
 [Redis](https://hub.docker.com/_/redis/) on Docker
 
